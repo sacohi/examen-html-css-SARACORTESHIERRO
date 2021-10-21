@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+body {
+    margin: 20px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(252, 249, 249);
+}
+
+header a img {
+    height: 100%;
+    width: 80px;
+}
+
+header nav {
+    margin-right: 40px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-left: 45px;
+}
+
+header nav ul li:hover {
+    color: indianred;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* SECCION PRIMERA */
+
+section.primera {
+    height: 400px;
+    width: 100%;
+    background-image: url(../scr/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section.primera h1 {
+    color: white;
+    width: 400px;
+    margin-left: 7rem;
+    font-size: 35px;
+}
+
+span {
+    font-size: 60px;
+    font-family: 'Birthstone', cursive;
+}
+
+
+/* SECCION SEGUNDA */
+
+section.segunda {
+    height: 550px;
+    padding-top: 15px;
+}
+
+section.segunda h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+section.segunda div.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+section.segunda div.container div {
+    margin: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    width: 290px;
+}
+
+section.segunda div.container div img#flores,
+section.segunda div.container div img#wedding,
+section.segunda div.container div img#photo {
+        height: 150px;
+        width: 250px;
+        margin: 20px;
+}
+
+section.segunda div.container div h3 {
+    text-align: center;
+}
+
+section.segunda div.container p {
+    text-align: justify;
+    font-size: 0.9rem;
+    padding: 15px;
+}
+
+/* SECCION TERCERA */
+
+section.tercera {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 244, 244);
+}
+
+section.tercera div img {
+    height: 300px;
+}
+
+section.tercera div {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.tercera div h2,
+section.tercera div p {
+    margin: 25px;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    background-color: rgb(224, 240, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
